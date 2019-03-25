@@ -148,6 +148,8 @@
 /************************************************************************/
 /* constants                                                            */
 /************************************************************************/
+
+/* https://www.princetronics.com/supermariothemesong/ */
 int melodymario[] = {
 	NOTE_E7, NOTE_E7, 0, NOTE_E7,
 	0, NOTE_C7, NOTE_E7, 0,
@@ -202,6 +204,8 @@ int tempomario[] = {
 	12, 12, 12, 12,
 };
 
+
+/* https://www.hackster.io/joshi/piezo-christmas-songs-fd1ae9 */
 int melody2[] = {
 	NOTE_E5, NOTE_E5, NOTE_E5,
 	NOTE_E5, NOTE_E5, NOTE_E5,
@@ -224,6 +228,7 @@ int tempomelody2[] = {
 	 4, 4
 };
 
+/* https://github.com/deathbearbrown/arduino-tunes/blob/master/zelda/zelda.ino */
 int melodyzelda[] = {
 	NOTE_C4, NOTE_A4, NOTE_G4, NOTE_F4, NOTE_G4,  NOTE_E4,
 	NOTE_C4, NOTE_A4, NOTE_G4, NOTE_F4, NOTE_E4,  NOTE_F4,
